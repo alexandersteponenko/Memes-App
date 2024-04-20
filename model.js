@@ -28,7 +28,7 @@ class Model {
 
     setMemes(memes) {
         this.memes = memes;
-        this.currentMemeId = memes[28].id;
+        this.currentMemeId = memes[30].id;
         this.onMemesChange();
         this.onCurrentMemeIdChange();
     }
