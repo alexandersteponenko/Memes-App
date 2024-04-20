@@ -1,0 +1,66 @@
+body {
+  font-family: "Montserrat", "IBM Plex Sans", sans-serif;
+  font-weight: 400;
+}
+.container {
+  width: 1440px;
+  padding: 105px 93px 0 164px;
+}
+.wrapper {
+  display: flex;
+  gap: 222px;
+}
+h2 {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 61px;
+}
+h3 {
+  margin-top: 42px;
+  margin-bottom: 13px;
+  font-size: 35px;
+  line-height: 43px;
+}
+select,
+input {
+  box-sizing: border-box;
+  width: 393px;
+  padding: 12px 15px;
+  font-family: Montserrat;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 15px;
+  font-size: 25px;
+}
+.image__wrapper {
+  margin-top: 76px;
+  position: relative;
+}
+.image__wrapper-text {
+  display: flex;
+  justify-content: center;
+}
+.top-text,
+.bottom-text {
+  position: absolute;
+  font-family: IBM Plex Sans;
+  font-size: 35px;
+  line-height: 46px;
+  color: rgb(255, 255, 255);
+}
+.top-text {
+  top: 22px;
+}
+.bottom-text {
+  bottom: 30px;
+}
+img {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+.error {
+  margin-top: 10px;
+  font-size: 25px;
+  color: #ff0000;
+}
